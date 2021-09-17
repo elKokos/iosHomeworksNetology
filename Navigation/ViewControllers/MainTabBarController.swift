@@ -30,6 +30,7 @@ class MainTabBarController: UITabBarController {
         let profileNavController = UINavigationController(rootViewController:profileViewController)
         
         UINavigationBar.appearance().barTintColor = .black
+        UINavigationBar.appearance().tintColor = .red
         UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.red]
         
         feedNavController.tabBarItem.image = UIImage(systemName: "house")
