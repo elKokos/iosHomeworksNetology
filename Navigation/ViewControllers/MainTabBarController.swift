@@ -14,6 +14,7 @@ class MainTabBarController: UITabBarController {
         
         tabBar.barTintColor = .black
         tabBar.tintColor = .red
+        tabBar.backgroundColor = .black
         
         viewControllers = setupNavigationControllers()
     }
@@ -29,6 +30,8 @@ class MainTabBarController: UITabBarController {
         let feedNavController = UINavigationController(rootViewController: feedViewController)
         let profileNavController = UINavigationController(rootViewController:profileViewController)
         
+        UIApplication.shared.statusBar
+        UINavigationBar.appearance().backgroundColor = .black
         UINavigationBar.appearance().barTintColor = .black
         UINavigationBar.appearance().tintColor = .red
         UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.red]
