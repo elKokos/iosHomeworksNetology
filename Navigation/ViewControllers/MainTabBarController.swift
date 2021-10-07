@@ -30,7 +30,7 @@ class MainTabBarController: UITabBarController {
         let feedNavController = UINavigationController(rootViewController: feedViewController)
         let profileNavController = UINavigationController(rootViewController:profileViewController)
         
-        UIApplication.shared.statusBar
+//        UIApplication.shared.statusBar
         UINavigationBar.appearance().backgroundColor = .black
         UINavigationBar.appearance().barTintColor = .black
         UINavigationBar.appearance().tintColor = .red
